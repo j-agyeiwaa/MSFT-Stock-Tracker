@@ -1,0 +1,52 @@
+body {
+    background-color: #F4EDD2; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stock-card {
+    background-color: black; 
+    border-radius: 24px;
+    padding: 25px 35px;
+    width: 380px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.brand-logo {
+    width: 140px;
+    height: auto;
+}
+
+.data-row {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F4EDD2;
+    margin: 14px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.value {
+    font-weight: 400;
+}
+
+#price-arrow {
+    margin-left: 6px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out; /* Smooth color shifting transitions */
+}

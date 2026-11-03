@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Ticker Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stock-card">
+    <div class="logo-container">
+      <img src="microsoft_logo.png" alt="Microsoft Logo" class="brand-logo">
+    </div>
+
+    <div class="data-row">
+      <span class="label">Name:</span>
+      <span id="stock-name" class="value">Microsoft Corp.</span>
+    </div>
+
+    <div class="data-row">
+      <span class="label">Symbol:</span>
+      <span id="stock-symbol" class="value">$MSFT</span>
+    </div>
+
+    <div class="data-row">
+        <span class="label">Price:</span>
+        <span id="stock-price" class="value">Loading...</span>
+        <span id="price-arrow" class="value"></span>
+    </div>
+
+
+    <div class="data-row">
+      <span class="label">Time:</span>
+      <span id="stock-time" class="value">--:--:-- --</span>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
